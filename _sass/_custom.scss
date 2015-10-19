@@ -9,6 +9,12 @@
   }
 }
 
+.fix-equalizing-bug {
+  // Adding padding-bottom makes somehow height equalizing work normally
+  // Otherwise the height of element does not contain the
+  // bottom margin of last child element
+  padding-bottom: 1px;
+}
 .juicer-feed h1 a {
   font-size: 12px;
   color: #e6769d !important;;
