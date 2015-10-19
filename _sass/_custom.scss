@@ -1,3 +1,18 @@
+@media only screen and (min-width: 40.063em) {
+  h1,h2,h3 {
+    text-align: center;
+  }
+
+  .box-tall-medium-up {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.juicer-feed h1 a {
+  font-size: 12px;
+  color: #e6769d !important;;
+}
 .caps {
   text-transform: uppercase;
 }
@@ -10,29 +25,25 @@
   padding: 35px;
 }
 
-.box-bg-business {
-  background: #139188;
+@mixin box-white-text {
   color: white;
 
-  h2, h3 {
+  h2, h3, a, a:hover {
     color: white;
   }
+}
+
+.box-bg-business {
+  background: #139188;
+  @include box-white-text;
 }
 
 .box-bg-medicine {
   background: #e6769d;
-  color: white;
-
-  h2, h3 {
-    color: white;
-  }
+  @include box-white-text;
 }
 
 .box-bg-industry {
   background: #db3507;
-  color: white;
-
-  h2, h3 {
-    color: white;
-  }
+  @include box-white-text;
 }
