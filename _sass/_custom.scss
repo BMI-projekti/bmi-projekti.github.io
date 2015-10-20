@@ -10,25 +10,40 @@
 }
 
 .fix-equalizing-bug {
-  // Adding padding-bottom makes somehow height equalizing work normally
-  // Otherwise the height of element does not contain the
-  // bottom margin of last child element
+  // Adding padding-bottom disables the cascading of margins
+  // and therefore the height of th equalized box becomes correct
   padding-bottom: 1px;
 }
-.juicer-feed h1 a {
-  font-size: 12px;
-  color: #e6769d !important;;
-}
+
 .caps {
   text-transform: uppercase;
 }
 
 .box {
-  padding: 10px;
+  padding: 15px 10px 15px 10px;
 }
 
-.box-big-spacing {
-  padding: 35px;
+@media only screen and (min-width: 40.063em) {
+  .box {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .box-big-spacing {
+    padding: 50px 15px 50px 15px;
+  }
+
+  .box-very-big-spacing {
+    padding: 100px 15px 100px 15px;
+  }
+}
+
+.without-margin {
+  margin: 0;
+}
+
+p.primer {
+    font-family: 'primerprint_bold';
+    font-size: 1.20rem;
 }
 
 @mixin box-white-text {
@@ -52,4 +67,88 @@
 .box-bg-industry {
   background: #db3507;
   @include box-white-text;
+}
+
+.box-bg-bmi-texture {
+  background-image: url('../images/bmi-texture.png');
+  background-size: 180px 113px;
+}
+
+.contact-image {
+  height: 260px;
+}
+.juicer-feed {
+  font-family: $font-family-sans-serif !important;
+  color: $business !important;
+
+  -webkit-font-smoothing: auto !important;
+  -moz-osx-font-smoothing: auto !important;
+
+  h3 {
+      font-family: $font-family-sans-serif !important;
+  }
+
+  h1 a {
+    font-size: 12px;
+    color: #e6769d !important;
+    opacity: 0.3;
+  }
+
+  .j-meta a {
+    color: $business !important;
+  }
+
+  .feed-item {
+    color: $business !important;
+    border-width: 0 !important;
+  }
+
+  .j-paginate {
+    font-family: $button-font-family !important;
+    background-color: $button-bg-color !important;
+    border: 0 !important;
+    text-transform: inherit !important;
+    color: white !important;
+    padding: $button-med !important;
+    font-size: $button-font-med !important;
+  }
+}
+
+footer {
+  background: #db3507;
+
+  padding: 10px;
+
+  h2 {
+      color: white;
+  }
+
+  img {
+    height: 75px;
+    margin-bottom: 20px;
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 40.063em) {
+  footer {
+
+    padding-top: 30px;
+    padding-bottom: 35px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 30px;
+    }
+    img {
+      padding-right: 80px;
+      display: inline;
+
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+
 }
