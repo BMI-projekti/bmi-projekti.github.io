@@ -74,8 +74,14 @@ p.primer {
   background-size: 180px 113px;
 }
 
+#contact {
+  text-align: center;
+}
+
 .contact-image {
-  height: 260px;
+  img {
+    max-width: 200px;
+  }
 }
 .juicer-feed {
   font-family: $font-family-sans-serif !important;
