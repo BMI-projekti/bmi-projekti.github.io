@@ -1,0 +1,51 @@
+.box {
+  padding: 15px 10px 15px 10px;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .box {
+    padding: 30px 15px 30px 15px;
+  }
+
+  .box-tall-medium-up {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .box-big-spacing {
+    padding: 50px 15px 50px 15px;
+  }
+
+  .box-very-big-spacing {
+    padding: 100px 15px 100px 15px;
+  }
+}
+
+
+@mixin box-white-text {
+  color: white;
+
+  h2, h3, a, a:hover {
+    color: white;
+  }
+}
+
+.box-bg-business {
+  background: #139188;
+  @include box-white-text;
+}
+
+.box-bg-medicine {
+  background: #e6769d;
+  @include box-white-text;
+}
+
+.box-bg-industry {
+  background: #db3507;
+  @include box-white-text;
+}
+
+.box-bg-bmi-texture {
+  background-image: url('../images/bmi-texture.png');
+  background-size: 180px 113px;
+}

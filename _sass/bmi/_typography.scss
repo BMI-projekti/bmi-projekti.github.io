@@ -1,0 +1,18 @@
+@media only screen and (min-width: 40.063em) {
+  h1,h2,h3 {
+    text-align: center;
+  }
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+p.without-margin {
+  margin: 0;
+}
+
+p.primer {
+    font-family: 'primerprint_bold';
+    font-size: 1.20rem;
+}

@@ -1,0 +1,9 @@
+.fix-equalizing-bug {
+  // Adding padding-bottom disables the cascading of margins
+  // and therefore the height of th equalized box becomes correct
+  padding-bottom: 1px;
+}
+
+.imgs-maxwidth-200px img {
+  max-width: 200px;
+}
