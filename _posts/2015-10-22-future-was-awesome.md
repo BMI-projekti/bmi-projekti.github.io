@@ -11,6 +11,7 @@ Back to the Future is a 1985 American science fiction film directed by Robert Ze
 Aarne's face out of the blue
 ---------------------
 
+{: .text-center}
 ![Aarne's face](/images/aarne.png)
 
 Zemeckis and Gale wrote the script after Gale mused upon whether he would have befriended his father if they had attended school together. Various film studios rejected the script until the financial success of Zemeckis' Romancing the Stone. Zemeckis approached Spielberg, who agreed to produce the project at Amblin Entertainment, with Universal Pictures as distributor. The first choice for the role of Marty McFly was Michael J. Fox. However, he was busy filming his television series Family Ties and the show's producers would not allow him to star in the film. Consequently, Eric Stoltz was cast in the role. During filming, Stoltz and the filmmakers decided that the role was miscast, and Fox was again approached for the part. Now with more flexibility in his schedule and the blessing of his show's producers, Fox managed to work out a timetable in which he could give enough time and commitment to both.
