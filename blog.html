@@ -6,19 +6,30 @@ layout: default
 
   <h1 class="page-heading">Blogi</h1>
 
-  <ul class="post-list">
+  <div class="post-list">
     {% for post in site.posts %}
-      <li>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-          
-          <h2>{{ post.title }}</h2>
-          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-          <p>{{ post.excerpt }}Lue lisää...</p>
-          <img src="/images/{{ post.image }}"></img>
-        </a>
-      </li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+
+      <section class="row" data-equalizer data-equalizer-mq="medium-up">
+        <div class="row">
+          <div class="medium-8 column fix-equalizing-bug box box-big-spacing box-tall-medium-up {% cycle 'box-bg-industry', 'box-bg-business' %}" data-equalizer-watch>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h2 class="caps">{{ post.title }}</h2>
+          </div>
+          <div class="medium-4 column fix-equalizing-bug box box-big-spacing box-tall-medium-up text-center {% cycle 'box-bg-medicine', 'box-bg-industry', 'box-bg-business', 'box-bg-medicine' %}" data-equalizer-watch>
+            <img src="/images/{{ post.image }}"></img>
+          </div>
+        </div>
+        <div class="medium-12 column">
+          <p style="text-decoration:overline;">{{ post.excerpt }}</p>
+          <div class="small-6 small-centered text-center columns">
+            <a href="{{ post.url | prepend: site.baseurl }}" class="button {% cycle 'box-bg-medicine', 'box-bg-industry', 'box-bg-business' %}">Lue lisää</a>
+          </div>
+        </div>
+      </section>
+      </a>
     {% endfor %}
-  </ul>
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
