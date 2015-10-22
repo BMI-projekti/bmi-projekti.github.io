@@ -3,12 +3,14 @@ layout: post
 title:  "Future is Awesome!"
 date:   2015-09-21 16:25:53
 author: "Marty McFly"
-categories: jekyll update
+categories: 
 ---
 Back to the Future is a 1985 American science fiction film directed by Robert Zemeckis, written by Zemeckis and Bob Gale, produced by Gale and Neil Canton, and starring Michael J. Fox, Christopher Lloyd, Lea Thompson, Crispin Glover and Thomas F. Wilson. Steven Spielberg, Kathleen Kennedy, and Frank Marshall served as executive producers. In the film, teenager Marty McFly (Fox) is sent back in time to 1955, where he meets his future parents in high school and accidentally becomes his mother's romantic interest. Marty must repair the damage to history by causing his parents-to-be to fall in love, and with the help of eccentric scientist Dr. Emmett "Doc" Brown (Lloyd), he must find a way to return to 1985.
 
-A Second Level Header
+Aarne's face out of the blue
 ---------------------
+
+![Aarne's face](/images/aarne.png)
 
 Zemeckis and Gale wrote the script after Gale mused upon whether he would have befriended his father if they had attended school together. Various film studios rejected the script until the financial success of Zemeckis' Romancing the Stone. Zemeckis approached Spielberg, who agreed to produce the project at Amblin Entertainment, with Universal Pictures as distributor. The first choice for the role of Marty McFly was Michael J. Fox. However, he was busy filming his television series Family Ties and the show's producers would not allow him to star in the film. Consequently, Eric Stoltz was cast in the role. During filming, Stoltz and the filmmakers decided that the role was miscast, and Fox was again approached for the part. Now with more flexibility in his schedule and the blessing of his show's producers, Fox managed to work out a timetable in which he could give enough time and commitment to both.
 
