@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Future was Awesome! berg, Kathleen Kennedy, and Frank Marshall served as executive producers. In the film, teenager Marty McFly (Fox) is sent back in tim"
+title:  "Future was Awesome!"
 date:   2015-09-22 16:25:53
-author: "Marty McFly"
+author: "BMI"
 image: bmi-texture.png
 categories: 
 ---
