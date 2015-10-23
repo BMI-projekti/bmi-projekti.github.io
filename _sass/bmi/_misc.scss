@@ -7,3 +7,9 @@
 .imgs-maxwidth-200px img {
   max-width: 200px;
 }
+
+@media only screen and (min-width: 40.063em) {
+  .text-center-medium-up {
+      text-align: center;
+  }
+}
