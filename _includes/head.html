@@ -6,18 +6,19 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:title" content="BMI Innovation Project" />
+  <meta property="og:site_name" content="BMI Innovation Project">
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
-  <meta property="og:image" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}/images/logo-experimental.png" />  
+  <meta property="og:url" content="http://bmiproject.fi/" />
+  <meta property="og:description" content="Haluamme tuoda tekniikan, talouden ja lääketieteen opiskelijoiden osaamisen yhteen, ja ratkoa terveysalan haasteita yhdessä yritysten ja julkisten toimijoiden kanssa." />
+  <meta property="og:image" content="http://bmiproject.fi/images/logo-experimental.png" />  
 
+  <meta name="twitter:title" content="BMI Innovation Project">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@bmiprojekti">
   <meta name="twitter:creator" content="@bmiprojekti">
-  <meta name="twitter:title" content="{{ site.title }}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:image:src" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}/images/logo-experimental.png">
+  <meta name="twitter:description" content="Haluamme tuoda tekniikan, talouden ja lääketieteen opiskelijoiden osaamisen yhteen, ja ratkoa terveysalan haasteita yhdessä yritysten ja julkisten toimijoiden kanssa.">
+  <meta name="twitter:image:src" content="http://bmiproject.fi/images/logo-experimental.png">
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
