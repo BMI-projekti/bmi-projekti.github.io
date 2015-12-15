@@ -4,6 +4,10 @@
   }
 }
 
+.primerprint {
+  font-family: 'primerprint_bold';
+}
+
 .caps {
   text-transform: uppercase;
 }
@@ -17,6 +21,17 @@ p.primer {
     font-size: 1.20rem;
 }
 
+p.low-height {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+
 a.no-decoration {
 	text-decoration: none !important
+}
+
+p.hashtags {
+  font-style: italic;
+  margin-top: 20px;
 }
